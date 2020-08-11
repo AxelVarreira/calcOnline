@@ -1,0 +1,71 @@
+:root{
+    --primary-color: #72baa7;
+    --secondary-color: #6d90c93f;
+    --primary-hover: #4c7a6e;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    color: var(--primary-color);
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    margin:12px auto;
+}
+
+
+#container .title{
+    text-shadow: 5px 5px #d1cfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container .form .viwer{
+    display: flex;
+    outline: none;
+    border: none;
+    margin: 10px;
+
+    font-size: xx-large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table{
+    display: flex;
+    flex-direction: initial;
+    padding: 15px;
+    background-color: white;
+    
+}
+
+#container .buttons{
+    padding: 25px;
+    margin: 5px;
+    
+    outline: none;
+    border: none;
+
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container .buttons:hover,
+#container .button-equals:hover{
+    background-color: var(--primary-hover);
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/calc.png" type="image/icon">
+    <link rel="stylesheet" href="/index.css">
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div id="container">
+
+        <div class="title" alt="Calculadora Online">
+            <h1 class="title">Calculadora</h1>
+            <span>
+                <img src="/images/calc.png" alt="Calculadora">
+            </span>
+        </div>
+            
+        <form class="form" name="form">
+            <input class="viwer" name="viwer">
+        </form>
+
+        <div>
+            <div class="table">
+                <table>
+                    <td>
+                        <input type="button" onclick="visor(7)" class="buttons" value="7" alt="sete">
+                        <input type="button" onclick="visor(8)" class="buttons" value="8" alt="Oito">
+                        <input type="button" onclick="visor(9)" class="buttons" value="9" alt="Nove">
+                        <input type="button" onclick="limpar()" class="buttons" value="C" alt="Limpar">
+                    </td>
+
+                    <tr>
+                        <td>
+                            <input type="button" onclick="visor(4)" class="buttons" value="4" alt="Quatro">
+                            <input type="button" onclick="visor(5)" class="buttons" value="5" alt="Cinco">
+                            <input type="button" onclick="visor(6)" class="buttons" value="6" alt="Seis">
+                            <input type="button" onclick="visor('-')" class="buttons" value="-" alt="Menos">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" onclick="visor(1)" class="buttons" value="1" alt="Um">
+                            <input type="button" onclick="visor(2)" class="buttons" value="2" alt="Dois">
+                            <input type="button" onclick="visor(3)" class="buttons" value="3" alt="Três">
+                            <input type="button" onclick="visor('+')" class="buttons" value="+" alt="Adição">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" onclick="visor(0)" class="buttons" value="0" alt="Zero">
+                            <input type="button" onclick="visor('.')" class="buttons" value="." alt="Ponto">
+                            <input type="button" onclick="igual('=')" class="buttons" value="=" alt="Igual">
+                            <input type="button" onclick="visor('/')" class="buttons" value="󠀽/" alt="Divisão">
+                        </td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
