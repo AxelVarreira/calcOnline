@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calculadora Online
 
 **Tecnologias usadas:**
@@ -6,6 +7,10 @@
   * HTML5
 
 **Every piece of code counts.**
+=======
+# calcOnline
+
+>>>>>>> 1bfb7409b0f739d77819a195ebdeb8d6eb1fc1b0
 <h1>
   Project images
 </h1>
